@@ -6,7 +6,7 @@ PLEASE READ BEFORE USING
 These are Bash shell scripts I wrote and only tested in my environment. Use them at your own risk. Please make full backups of your data before trying to run any of them.
 Here's an overview of them
 
-Restic
+Restic B2 Helper
 
 I wrote this to automate backups using the tool "Restic" in order to upload to BackBlaze B2. In the config directory, you will have to enter your BackBlaze account ID, Restic repo password and other account info.
 In the actual shell script, you will need to edit the variables under the "Custom Settings" portion of the file. I used "mutt" to send email alerts, so you will need to have that installed and configured correctly, as well as restic.
