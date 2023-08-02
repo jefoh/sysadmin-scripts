@@ -13,7 +13,7 @@ In the actual shell script, you will need to edit the variables under the "Custo
 
 Website Backup
 
-This is a short script made to backup a LAMP style website. It backs up the website files in the public directory and then makes a (mySQL or mariaDB) database dump and then uses rsync to send them to a remote server. This will also require you to edit a few variables to suit your specific environment. You will need to edit the settings in the db.sh file.
+This is a short script made to backup a website running on LAMP. It backs up the website files in the public directory and then makes a (mySQL or mariaDB) database dump and then uses rsync to send them to a remote server. This will also require you to edit a few variables to suit your specific environment. You will need to edit the settings in the db.sh file.
 
 civi_db_dump.sh
 
